@@ -59,3 +59,48 @@ h1, h2, h3 {
     margin: 0 auto;
     padding: 2em;
   }
+
+  #alertMe {
+    background-color: black;
+    color: lightgrey;
+    float: right;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+  }
+
+  #dropdownBox {
+    display: none;
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 15px;
+    border-radius: 5px;
+    float: right;
+    clear: both;
+    margin: 0 10px 10px 0;
+    max-width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  #hoverButton {
+    background-color: #2ecc71;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  #hoverImageContainer {
+    display: none;
+    margin-top: 10px;
+  }
+  
+  #hoverImage {
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  

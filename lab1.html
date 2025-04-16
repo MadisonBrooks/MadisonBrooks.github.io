@@ -2,12 +2,24 @@
 
 <html>
     <head>
-        <link href="./index.css" rel="stylesheet">
+        <link href="./Script/index.css" rel="stylesheet">
+
         <title> MaddyB Photography Frontpage </title>
     </head>
 
     <body> 
         <meta charset="ascii">
+       
+        <button id="alertMe">Book with me!</button>
+
+        <div id="dropdownBox">
+          Contact me at: <strong>your@email.com</strong><br>
+          Or use the contact form below.<br>
+          <input type="text" placeholder="Your message..." style="width: 100%; padding: 8px; margin-top: 10px;" />
+        </div>
+        
+        <button id="container">dont forget to book!</button>
+        
 
         <center>
             <caption>
@@ -18,7 +30,8 @@
             </element>
             </caption>
         </center>
-
+        <button id="buttonCounter">How many photos do you want?</button>
+        <p id="counter">0</p>
         <center>
             <h1>
             
@@ -43,6 +56,12 @@
                 </p>
             </h1>
 
+            <button id="hoverButton">Hover over me!</button>
+            <div id="hoverImageContainer">
+              <img id="hoverImage" src="C:\Users\brook\OneDrive\Pictures\Insta Photos\Screenshot_20241021_093836_Instagram.jpg" alt="Hover Image" />
+            </div>
+            
+
             <br>
             <element class="photo-gallery"  class="photo-container">
             <img src="C:\Users\brook\OneDrive\Pictures\Insta Photos\IMG_0379.jpg" alt="woman k" width="300" height="500">
@@ -53,10 +72,10 @@
             
             <table>
                 <tr>
-                    <ul style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: rgb(177, 177, 175);>
+                    <ul style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif"; color: rgb(177, 177, 175);>
                          
                         <br>
-                        <td><li> Portraits</li></td>
+                        <td><li>Portraits</li></td>
                         <td><li>Family</li></td> 
                         <td><li>Couples</li></td> 
                         <td><li>Furry Friends</li></td>
@@ -90,13 +109,14 @@
 
 
        
-            <section id="contactInfo" element class="section-dark"> 
-                <h2>Contact Information</h2>
-                <p>Phone: 403-819-4490</p>
-                <p>Email: madison.brooks@edu.sait.ca</p>
-            </section>
+        <section id="contactInfo" element class="section-dark"> 
+            <h2>Contact Information</h2>
+            <p>Phone: 403-819-4490</p>
+            <p>Email: madison.brooks@edu.sait.ca</p>
+        </section>
         
         </center>
-
+        
+        <script src="./Script/script.js"></script>
     </body>
 </html>
